@@ -26,6 +26,9 @@ Basic Usage
 -----------
 
 .. code:: python
+    from state_machine import acts_as_state_machine
+    from state_machine import State
+    from state_machine import Event
 
 
     @acts_as_state_machine
@@ -188,4 +191,3 @@ that I loved before
 
 .. _aasm: https://github.com/aasm/aasm
 .. _state\_machine: https://github.com/pluginaweek/state_machine
-
